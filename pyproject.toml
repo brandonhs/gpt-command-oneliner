@@ -1,0 +1,15 @@
+[project]
+name = "askgpt"
+version = "0.1.0"
+description = "CLI to ask GPT for shell commands and optionally run them"
+authors = [{ name = "Brandon Stevens" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["openai"]
+
+[project.scripts]
+ask-gpt = "askgpt.cli:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
