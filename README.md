@@ -7,5 +7,6 @@
 ## Installation
 
 - Clone the repo
+- Add a .env file containing your api key
 - `pip install .`
 - You are done.
